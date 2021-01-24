@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.chipy.org/static/css/shiny.8d9b65b9bbeb.css">
+
+    <title>Chicago Python User Group</title>
+</head>
+
+<body>
+    <!-- BEGINNING OF LOGO SECTION -->
+    <div class="row">
+        <div class="logo-header p-4">
+            <img src="https://www.chipy.org/static/img/chicago-python-logo.97af025b8b58.png" class="mx-auto d-block" alt="Chicago Python User Group Logo" height="50">
+        </div>
+    </div>
+    <!-- END OF LOGO SECTION -->
+
+    <div class="screen-bg full-screen-bg" style="background-image: url(https://www.chipy.org/static/img/HP-Hero-bg-1500-90.fa38272de062.jpg">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav font-montserrat-bold justify-content-center ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about-us">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.chipy.org/pages/conduct">CODE OF CONDUCT</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="support-us-navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        SUPPORT US
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="support-us-navbarDropdown">
+                                        <li><a class="dropdown-item font-montserrat-bold " href="https://www.chipy.org/sponsors/list/">SPONSOR</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item font-montserrat-bold " href="https://www.chipy.org/pages/host/">HOST</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item font-montserrat-bold" href="https://www.chipy.org/pages/referrals/">REFERRAL PROGRAM</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item font-montserrat-bold" href="https://www.chipy.org/pages/volunteer/">VOLUNTEER</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item font-montserrat-bold" href="https://www.chipy.org/pages/donate/">INDIVIDUAL DONATION</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PROGRAMS</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item font-montserrat-bold " href="https://www.chipy.org/pages/sigs/">SIGs</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item font-montserrat-bold " href="https://chipymentor.org/">MENTORSHIP</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.chipy.org/meetings/topics/propose/">SPEAK</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.chipy.org/contact/">CONTACT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.chipy.org/job-board/">JOB BOARD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="login-button" class="btn btn-info my-2 my-sm-0 mx-2 " data-bs-toggle="modal" data-bs-target="#login-modal" href="#">LOG IN</a>
+                                </li>
+                            </ul>
+                        </div> <!--closes id=navbarSupportedContent-->
+                    </div> <!--closes container-fluid -->
+                </nav>
+            </div>
+        </div>
+
+        <!-- LOGIN MODAL STARTS-->
+        <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title black-text" id="loginModalLabel">Sign in With:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <a href="https://www.chipy.org/login/google-oauth2/?next="><button class="btn-lg btn-danger font-montserrat-bold">GOOGLE</button></a>
+                        <a href="https://www.chipy.org/login/github/?next="><button class="btn-lg btn-primary font-montserrat-bold mx-3"><img src="https://www.chipy.org/static/img/svg/social-icons-github-2.67e3c6e3477b.svg" class="my-2 mx-1" alt="Github Icon" height="25" width="25">GITHUB</button></a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LOGIN MODAL ENDS-->
+
+        <div class="row row-remove-right-gutter">
+            <div class="col-12 text-center">
+                <div class="title-large">
+                    TOGETHER IS BETTER THAN ALONE<br>
+                    NOW IS BETTER THAN NEVER
+                </div>
+            </div><!--closes the col-->
+        </div> <!--closes the working together row-->
+
+        <div class="d-flex flex-row justify-content-center flex-wrap ">
+            <div class="p-2" >
+                <a id="events-button" class="btn btn-primary btn-lg" href="#next-event">NEXT EVENT: Feb 11</a>
+            </div>
+            <div class="p-2" >
+                <a id="future-events-button" class="btn btn-danger btn-lg" href="https://www.chipy.org/meetings/">SEE ALL UPCOMING EVENTS</a>
+            </div>
+        </div>
+    </div> <!--closes fullscreen background-->
+
+
+
+    <div class="row flex-md-row-reverse">
+        <div class="col-md-6 my-4 px-5 py-3">
+            <div class="border px-3 py-3" style="width: 400px; margin: auto">
+                <h3 class="red-text text-center">FEATURED SPONSOR</h3>
+                <div class="text-center">
+                    We'd like to thank JFrog for their amazing support.Without sponsors like them we couldn't exist.
+                    <div class="sponsor-image text-center py-3"  style="margin: auto">
+                        <a href="https://www.chipy.org/sponsors/detail/jfrog/">
+                            <img src="https://chipy.s3.amazonaws.com/cache/1b/be/1bbe7afe2dce975de4edf86e72c214f4.jpg" alt="JFrog">
+                        </a>
+                    </div>
+                    <p>Learn more about JFrog <br/> and <a href="https://www.chipy.org/sponsors/list/">all of our sponsors today</a></p>
+                </div>
+            </div>
+        </div> <!--closes column-->
+
+        <div class="col-md-6 my-4 px-5 pb-3" style="padding-top: 2.15rem">
+
+            <h3 id="next-event">NEXT EVENT: CHIPY __MAIN__ MEETING FEBRUARY 2021</h3>
+            <p><strong>When: </strong> Feb. 11, 2021, 6 p.m.</p>
+            <p itemprop="address"><strong>Where: </strong><a id="where-link"> Remote Meeting</a></p>
+            <p></p>
+
+            <div id="where-dialog" title="Venue" style="display:none">
+                Remote Meeting<br><br>
+            </div>
+
+
+            <p><a href="https://www.youtube.com/watch?v=vQlekAHqpBg">Live Stream</a><p>
+
+                <div>
+                    <strong>RSVPs</strong>
+                    <p><strong>Current Attendance:</strong>2 Pythonistas</p>
+                    <div>
+                        <a id="rsvp-button" class="btn btn-primary my-2 my-sm-0 mx-2 rsvp" data-bs-toggle="modal" data-bs-target="#rsvp-modal" href="#">RSVP</a>
+                    </div>
+                </div>
+
+                <!-- RSVP MODAL STARTS-->
+                <div class="modal fade" id="rsvp-modal" tabindex="-1" aria-labelledby="RSVPModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title black-text" id="RSVPModalLabel">RSVP:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="rsvp-form" method="POST" action="/meetings/rsvp/">
+                                <input type="hidden" name="csrfmiddlewaretoken" value="dGoF1Z0xRAKSDSI3C4oOSNBBTLp3SQh0hKYM8b9hSb1ZLys3sXagAhpmeVf8wA5v">
+
+                                <div class="mb-3">
+                                    <input type="hidden" name="user" id="id_user">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div><label for="response"><label for="id_response">Response:</label></label></div>
+                                    <select name="response" required id="id_response">
+                                        <option value="">---------</option>
+                                        <option value="Y" selected>Yes</option>
+                                        <option value="N">No</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="hidden" name="meeting" value="173" id="id_meeting">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div><label for="first_name"><label for="id_first_name">First name on your legal ID:</label></label></div>
+                                    <input type="text" name="first_name" maxlength="255" required id="id_first_name">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div><label for="last_name"><label for="id_last_name">Last name on your legal ID:</label></label></div>
+                                    <input type="text" name="last_name" maxlength="255" required id="id_last_name">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div><label for="email"><label for="id_email">Email:</label></label></div>
+                                    <input type="email" name="email" maxlength="255" required id="id_email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div><label for="captcha"><label for="id_captcha"></label></label></div>
+                                    <div class="g-recaptcha" data-sitekey="6Lf3qgITAAAAAAkYnNuaGjy5iwK9JUECytS0uqdA"></div>
+                                    <noscript>
+                                        <div style="width: 302px; height: 352px;">
+                                            <div style="width: 302px; height: 352px; position: relative;">
+                                                <div style="width: 302px; height: 352px; position: absolute;">
+                                                    <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Lf3qgITAAAAAAkYnNuaGjy5iwK9JUECytS0uqdA"
+                                                    frameborder="0" scrolling="no"
+                                                    style="width: 302px; height:352px; border-style: none;">
+                                                </iframe>
+                                            </div>
+                                            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                                            bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+                                            <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                            class="g-recaptcha-response"
+                                            style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                                            margin: 0px; padding: 0px; resize: none;" value="">
+                                        </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </noscript>
+                    </div>
+
+                    <input type="submit" name="submit" value="RSVP" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- RSVP MODAL ENDS-->
+
+</div> <!--closes column-->
+
+</div> <!--closes row-->
+
+
+<div class="row my-0 py-3">
+    <div class="col-12 px-5">
+        <h3>TOPICS FOR NEXT EVENT</h3>
+    </div>
+</div>
+<div class="row">
+
+
+    <div class="col-md px-5">
+        <h5 class="black-text">The Enters and Exits of Context Managers</h5>
+        <div>
+            <strong>By:</strong> Mason Egger
+        </div>
+        <div>
+            <strong>Experience Level:</strong> Intermediate
+        </div>
+        <p>
+            <p><span>Have you ever opened a file using the with keyword in Python? That little keyword is one of the many fascinating parts of the Python programming language, the Context Manager. The Python Context Manager is a tool that allows the programmer to reliably create and tear down temporary contexts within a program. This allows programmers to reduce duplicate code, improving the maintainability and reliability of the code. This talk will cover all things Context Manager, from what they are, how …</span></p> -
+            <a href="https://www.chipy.org/meetings/173/">Learn more</a>
+        </p>
+    </div>
+
+</div> <!--closes row-->
+
+
+
+
+<!--PARTICIPATE SECTION STARTS -->
+<div class="row py-5 background-tinted">
+    <h3 id="join-us" class="px-5 red-text">JOIN US</h3>
+    <div class="col-md-8 offset-md-2">
+        <div class="row">
+            <div class="col-md py-2 px-2">
+                <div>
+                    <a href="https://github.com/chicagopython/chipy.org" target="_blank" rel="noopener noreferrer"><img class="join-us-icon" src="https://www.chipy.org/static/icons/github-square-social-media.03377d53113b.svg"/>
+                    </a>
+                </div>
+                <div class="text-center">Collaborate on Code!</div>
+            </div>
+            <div class="col-md py-2 px-2">
+                <div class="text-center">
+                    <a href="https://joinchipyslack.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img class="join-us-icon" src="https://www.chipy.org/static/icons/slack-square-social-media.0af7e4e42baa.svg"/>
+                    </a>
+                </div>
+                <div class="text-center">Chat on Slack!</div>
+            </div>
+            <div class="col-md py-2 px-2">
+                <div>
+                    <a id="icon-meetup" href="https://www.meetup.com/_ChiPy_/" target="_blank" rel="noopener noreferrer"><img class="join-us-icon" src="https://www.chipy.org/static/icons/meetup-logo.5faf6df508b8.svg"/>
+                    </a>
+                </div>
+                <div class="text-center">Events on Meetup!</div>
+            </div>
+            <div class="col-md py-2 px-2">
+                <div>
+                    <a id="icon-twitter" href="https://twitter.com/chicagopython" target="_blank" rel="noopener noreferrer"><img class="join-us-icon" src="https://www.chipy.org/static/icons/twitter-square-social-media.abf1d53ab8c3.svg">
+                    </a>
+                </div>
+                <div class="text-center">Check out our Tweets!</div>
+            </div>
+            <div class="col-md py-2 px-2">
+                <div>
+                    <a id="icon-youtube" href="https://www.youtube.com/channel/UCT372EAC1orBOSUd2fsA8WA" target="_blank" rel="noopener noreferrer"><img class="join-us-icon" src="https://www.chipy.org/static/icons/youtube-logo.46bc69048b59.svg">
+                    </a>
+                </div>
+                <div>
+                    <div class="text-center">Watch us on YouTube!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--PARTICIPATE SECTION ENDS -->
+
+<!--ABOUT SECTION STARTS-->
+<div class="row py-5">
+    <h3 id="about-us" class="px-5">ABOUT US</h3>
+    <div class="col-md-6 px-5 pt-1 pb-3">
+        Founded in 2003, Chicago Python User Group is one of the world's most active programming language special interest groups with over 1,000 active members and many more prestigious alumni. Our main focus is the Python Programming Language. There are many ways to get and stay involved. Meetings are open to all levels. Our main meetings are on the 2nd Thursday of every month and happen online remotely. We have SIGs (Special Interest Groups) in: Mentorship, Data Science, Web technologies, and Finance.
+    </div>
+    <div class="col-md-6 py-1 pe-5 padding-left-med-5">
+        <div class="row">
+            <div class="col-6 pe-2">
+                <img src="https://www.chipy.org/static/img/lt@3x-cropped.afbc84a77485.jpg" alt="Happy ChiPy people" height="250" >
+            </div>
+            <div class="col-6 text-end">
+                <img src="https://www.chipy.org/static/img/rt@3x.ad902bd71ecc.jpg" alt="ChiPy Attendees working on projects together" height="250" >
+            </div>
+        </div>
+    </div>
+</div>
+<!--ABOUT SECTION ENDS-->
+
+<!--FOOTER SECTION STARTS-->
+<div id="footer" class="row py-4 px-5">
+    <div class="col-md-3">
+        <img src="https://www.chipy.org/static/img/chipy-logo.14afdd6910bd.png" class="pb-2" alt="Chipy: Chicago Python User Group Logo" height="37"><br>
+        A product of the <br>
+        Chicago Python User Group<br>
+        <a class="icon-link" href="https://www.youtube.com/channel/UCT372EAC1orBOSUd2fsA8WA" target="_blank" rel="noopener noreferrer"><img src="https://www.chipy.org/static/img/svg/social-icons-youtube-2.2f6288b19aac.svg" class="my-2 me-1" alt="Youtube Icon" height="35" width="35"></a>
+        <a class="icon-link" href="https://twitter.com/chicagopython"><img src="https://www.chipy.org/static/img/svg/social-icons-twitter.df09b6dc8cec.svg" target="_blank" rel="noopener noreferrer" class="my-2 mx-1" alt="Twitter Icon" height="35" width="35"></a>
+        <a class="icon-link" href="https://joinchipyslack.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src="https://www.chipy.org/static/img/svg/social-icons-slack.66594f1f0320.svg" class="my-2 mx-1" alt="Slack Icon" height="35" width="35"></a>
+        <a class="icon-link" href="https://github.com/chicagopython/chipy.org" target="_blank" rel="noopener noreferrer"><img src="https://www.chipy.org/static/img/svg/social-icons-github.c5a8115144ad.svg" class="my-2 mx-1" alt="Github Icon" height="35" width="35"></a>
+        <a class="icon-link" href="https://www.meetup.com/_ChiPy_/" target="_blank" rel="noopener noreferrer"><img src="https://www.chipy.org/static/img/svg/social-icons-meetup.022ca3ec3962.svg" class="my-2 mx-1" alt="Github Icon" height="35" width="35"></a>
+    </div>
+
+    <div class="col-md-5">
+        <div class="row">
+            <div class="col-6 pe-2">
+                <ul class="no-bullets footer-link-list" >
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="https://www.chipy.org/sponsors/list/">SPONSOR</a></li>
+                    <li><a href="https://www.chipy.org/contact/">CONTACT US</a></li>
+                    <li><a href="https://www.chipy.org/pages/host/">HOST US</a></li>
+                    <li><a href="https://www.chipy.org/pages/conduct">CODE OF CONDUCT</a></li>
+                    <li><a href="https://www.chipy.org/pages/donate/">INDIVIDUAL DONATION</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 px-2">
+                <ul class="no-bullets footer-link-list">
+                    <li><a href="https://www.chipy.org/pages/organizers/">ORGANIZERS</a></li>
+                    <li><a href="https://www.chipy.org/job-board/">JOB BOARD</a></li>
+                    <li><a href="https://www.chipy.org/pages/referrals/">REFERRALS</a></li>
+                    <li><a href="https://chipymentor.org/">MENTORSHIP</a></li>
+                    <li><a href="https://www.chipy.org/pages/sigs/">SIGS</a></li>
+                    <li><a href="https://www.chipy.org/pages/volunteer/">VOLUNTEER</a></li>
+                </ul>
+            </div>
+
+        </div> <!--closes row-->
+    </div>
+
+    <div class="col-md-4 ps-md-2 text-md-end">
+        <a id="login-button" class="btn btn-info my-2 " href="https://mail.python.org/mailman/listinfo/chicago">SUBSCRIBE TO MAILING LIST</a><br>
+        <div class="light-red-text"> Design by <a href="https://cemilebiyiktay.com" target="_blank">Cemile Biyiktay</a></div>
+        <div class="light-red-text"> Copyright &copy; Chicago Python User Group</div>
+    </div>
+</div>
+<!--FOOTER SECTION ENDS-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+crossorigin="anonymous"></script>
+
+
+</body>
+</html>
